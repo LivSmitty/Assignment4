@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Find a Movie</title>
+    </h:head>
+    <h:body>
+        <h2>How would you like to search?</h2>
+        <div>
+            <h:button id="Title" value="Movie Title" outcome="searchTitle.xhtml"/>
+            <h:button id="Genre" value="Genre" outcome="searchGenre.xhtml"/>
+            <h:button id="Zip" value="Zip" outcome="searchZip.xhtml"/>
+            <h:button id="Cancel" value="Cancel" outcome="goodbye.xhtml"/>
+        </div>
+        <br></br>
+        <h3>Checkout Coming Attractions?</h3>
+        <div>
+            <h:button id="Upcoming" value="Coming Attractions" outcome="comingAttractions.xhtml"/>
+            
+        </div>
+        <br></br>
+        <h3>Become a Member!</h3>
+        <div>
+            <p> Become a member to receive promotional items, such as:
+                <br></br>
+                <br>*Discounts on Tickets and Refreshments</br>
+                <br>*Invitations to Premiere Showings</br>
+                <br>*Earn points towards future purchases</br>
+                <br></br>
+           </p>
+            <h:button id="Member" value="Sign Up" outcome="comingAttractions.xhtml"/>
+        </div>
+    </h:body>
+</html>
+

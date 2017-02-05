@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Search by Title</title>
+    </h:head>
+    <h:body>
+        <form>
+            <p>Choose a movie from the list below:</p>
+                       
+            <select size="title">
+                <option value="The Lego Batman Movie">The Lego Batman Movie</option>
+                <option value="A Dog's Purpose">A Dog's Purpose</option>
+                <option value="Monster Trucks">Monster Trucks</option>
+                <option value="John Wick: Chapter 2">John Wick: Chapter 2</option>
+                <option value="Hidden Figures">Hidden Figures</option>
+            </select>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h:button id="Search" value="Search"/>
+            <br></br>
+            <div>
+                <h2>Search a different way?</h2>
+                <h:button id="Genre" value="Genre" outcome="searchGenre.xhtml"/>
+                <h:button id="Zip" value="Zip" outcome="searchZip.xhtml"/>
+                <h:button id="Cancel" value="Cancel" outcome="goodbye.xhtml"/>
+            </div>
+        </form>
+    </h:body>
+        
+
+</html>
+

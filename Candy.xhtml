@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Candy</title>
+    </h:head>
+    <h:body>
+ <h3>What kind of candy would you like?</h3>
+        <select size="candy">
+            <option value="Starbursts">Starbursts</option>
+            <option value="Snickers">Snickers</option>
+            <option value="Butterfinger">Butterfinger</option>
+            <option value="GummyBears">Gummy Bears</option>
+        </select>    
+ 
+ <h3>Quantity?</h3>
+        <select size="quantity">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+        </select>
+ 
+        <br></br>
+        <br></br>
+        <h:button id="Add" value="Add to Cart"/>
+        <br></br>
+        <br></br>
+        
+        <p>Would you like to add any of the following?</p>
+        <div>
+            <h:button id="Soda" value="Soda" outcome="Soda.xhtml"/>
+            <h:button id="Popcorn" value="Popcorn" outcome="popcorn.xhtml"/>
+            <h:button id="Checkout" value="Ready to Checkout" outcome="checkout.xhtml"/>
+        </div>
+             
+    </h:body>
+</html>
+
